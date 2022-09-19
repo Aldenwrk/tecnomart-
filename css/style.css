@@ -128,6 +128,18 @@ display:inline-block;
 .user-tools-item a {
 display:block;
 }
+.user-tools-item{
+width:150px;
+height:42px;
+}
+.main-header-logo{
+width:220px;
+height:42px;
+}
+.search_field{
+width:270px;
+height:42px;
+}
 
 
 .purchase{
