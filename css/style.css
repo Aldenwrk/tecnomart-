@@ -122,6 +122,13 @@ ul{
   background-color:var(--header-nav-onclick);
   opacity: 1;
 }
+.user-tools-item {
+display:inline-block;
+}
+.user-tools-item a {
+display:block;
+}
+
 
 .purchase{
   background-color:var(--basic-green);
