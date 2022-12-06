@@ -182,6 +182,7 @@ display:inline-block;
 }
 .main-navigation a{
   display:block;
+  padding:16px 23px 20px 23px;
   color:var(--basic-white);
   font-size: 18px;
   line-height: 24px;
@@ -193,6 +194,15 @@ background-color:var(--nav-hover);
 background-color:var(--nav-onclick);
 }
 
+.menu-list .menu-item{
+  width:300px;
+  height:123px;
+  font-family: 'Cuprum';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
 .menu-list .menu-item:nth-child(1) {
   background-color: var(--special-yellow);
 }
@@ -210,7 +220,23 @@ background-color:var(--nav-onclick);
 }
 .menu-item a{
 display:block;
+background-color:rgba(255,255,255,0.3);
+font-family: 'Cuprum';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 38px;
+color:#fff;
+width:135px;
+height:38px;
+text-transform:uppercase;
+text-align:center;
+vertical-align:center;
 }
+
+/*Популярные товары*/
+
+
 
 .popular-headline{
   background-color:var(--basic-background);
@@ -228,7 +254,14 @@ background-color:var(--basic-red);
 font-weight: 400;
   font-size: 14px;
   color:var(--basic-white);
-
+}
+.popular-list{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color:#000;
 }
 
 .services{
@@ -274,5 +307,7 @@ line-height: 24px;
   background-color:var(--basic-red);
   color:var(--basic-white);
 }
+
+
 
 
